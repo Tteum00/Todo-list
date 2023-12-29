@@ -6,23 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todo-list</title>
   <link rel = "stylesheet" href = "styled.css"/>
-  <script src="main.js"></script>
+  <script defer src="main.js"></script>
 </head>
 <body>
+  <div class="every">
+    <h1 class="title">2024 Todo-list😆</h1>
+
   <div class="container">
-    <div class="title">
-      <h1>승원이의 매일매일 하는 습관!</h1>
-    </div>
-    <div class="subtitle">
-      목표를 새우고 달성하자 😆
-    </div>
-    <div class="append">
-      <form id="todo">
-        <input id="write" type="text" placeholder="할 일을 작성해 주세요">
-        <input id="addbtn" type="submit" value="추가">
-      </form>
-    </div>
-    <ul class="todo-box"></ul>
+    <input class="addtodo" id="toDo" placeholder="할 일을 입력 해 주세요!">
+    <button class="addbtn" id="addButton">+</button>
   </div>
+
+    <div class="end" id="toDoList">
+    </div>
+  </div>
+
 </body>
 </html>
